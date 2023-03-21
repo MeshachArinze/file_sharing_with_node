@@ -31,6 +31,6 @@ const express = require("express");
 const app = express();
 
 
-11. run your app with port 3001
+11. run your app with port 3001 inside your teminal
 
 
