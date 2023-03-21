@@ -10,6 +10,7 @@
   "author": "github.com/MeshachArinze",
   "license": "ISC",
   "dependencies": {
+    "@mapbox/node-pre-gyp": "1.x",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.9",
@@ -19,5 +20,10 @@
     "nodemon": "^2.0.21",
     "bcrypt": "^5.0.1",
     "node-gyp": "^9.3.1"
+  },
+  "binary": {
+    "module_name": "your_module",
+    "module_path": "./lib/binding/",
+    "host": "https://your_module.s3-us-west-1.amazonaws.com"
   }
 }
